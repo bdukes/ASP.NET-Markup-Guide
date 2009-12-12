@@ -1,0 +1,5 @@
+.markup-table {width:100%;}
+.markup-table td {border:solid 1px #999;}
+.tag-list li {list-style-type: none; }
+.tag-name {font-weight:700;}
+.attribute-value {font-weight:normal;}

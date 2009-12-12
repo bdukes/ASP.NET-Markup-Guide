@@ -1,0 +1,8 @@
+*.user
+*.sln
+*.sln.cache
+*.suo
+*.manifest
+*.Cache
+obj/
+package/
