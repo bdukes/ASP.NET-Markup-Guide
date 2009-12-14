@@ -4,5 +4,6 @@
 *.suo
 *.manifest
 *.Cache
+*.tmp
 obj/
 package/

@@ -30,27 +30,19 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="3rd Party References\DotNetNuke.dll" />
     <Content Include="Default.aspx" />
     <Content Include="DnnWrapper.ascx" />
     <None Include="License" />
+    <Content Include="images\Btn_infotexto.png" />
+    <Content Include="images\Btn_plus.png" />
+    <Content Include="images\Button_Globe.png" />
+    <Content Include="images\Button_zoom_in.png" />
+    <Content Include="images\Image Credits.txt" />
     <Content Include="MarkupGuide.ascx" />
     <Content Include="module.css" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DnnWrapper.ascx.cs">
-      <DependentUpon>DnnWrapper.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="DnnWrapper.ascx.designer.cs">
-      <DependentUpon>DnnWrapper.ascx</DependentUpon>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="DotNetNuke, Version=5.2.0.275, Culture=neutral, processorArchitecture=MSIL" />
     <Reference Include="System" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Web" />
-    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
